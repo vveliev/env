@@ -4,37 +4,55 @@ tap "homebrew/core"
 tap "homebrew/services"
 
 ####### <-----------------------------  CLI
-# brew "bash-completion"
+brew "bash-completion"
 brew "git"
-# brew "git-lfs"
+brew "git-lfs"
 brew "git-recent"
 brew "nvm"
-# brew "pyenv"
-# brew "pyenv-virtualenv"
-# brew "yarn"
+brew "pyenv"
+brew "pyenv-virtualenv"
+brew "yarn"
+# brew "readline", link: true
 # cask "osxfuse"
 # brew "sshfs"
-# brew "tmux"
 brew "thefuck"
 brew "m-cli"
 
 ####### <----------------------------- DB
-# cask "postico"
+cask "postico"
+cask "tableplus"
 # cask "robo-3t"
 # brew "mongodb", restart_service: true
 
+
+####### <----------------------------- EDITORS
+# cask "atom"
+cask "visual-studio-code"
+cask "meld"                                    # diff UI tool
+# cask "sublime-text"                
+
 ####### <----------------------------- DEV
-# cask "docker"
+cask "docker"
+cask "iterm2"
+cask "tower"
+brew "docker-compose"
+brew "pre-commit"
+brew "terraform"
+brew "nomad"
+brew "tmux"
+brew "rlwrap"
+cask "font-hack-nerd-font"
 # cask "postman"
 # cask "staruml"
 # brew "exercism"
 # brew "haskell-stack"
 
 ####### <----------------------------- MESSENGERS
-# cask "slack"
+cask "slack"
 cask "telegram-desktop"
+cask "microsoft-teams"
+cask "zoom"
 # cask "viber"
-# cask "microsoft-teams"
 # cask "skype"
 # cask "discord"
 
@@ -46,9 +64,20 @@ cask "spotify"
 # cask "chromium"
 # cask "steam"
 # cask "folx"
+cask "alfred"
+cask "bartender"
+cask "spectacle"
+cask "dash"         # api documentation browser
+cask "copyq"
 
 ####### <----------------------------- MISC
 # cask "yandex-disk"
+cask "raven-reader"
+cask "openvpn-connect"
+cask "hammerspoon"
+cask "gather"
+brew "graphviz"
+brew "fontconfig"
 # cask "insomniax"
 # cask "vlc"
 
