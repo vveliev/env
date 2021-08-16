@@ -8,7 +8,7 @@
 # See https://docs.haskellstack.org/en/stable/yaml_configuration/#templates
 templates:
   params:
-   author-name: Ivan Pazhitnykh
-   author-email: ivan.pazhitnykh@gmail.com
-   copyright: 2018 Ivan Pazhitnykh
-   github-username: Drapegnik
+   author-name: Vagif Veliev
+   author-email: vveliev@tucoews.com
+   copyright: 2018 Vagif Veleiv
+   github-username: vveliev-tc
