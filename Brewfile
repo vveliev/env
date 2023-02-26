@@ -18,6 +18,7 @@ brew "yarn"
 brew "thefuck"
 brew "m-cli"
 
+
 ####### <----------------------------- DB
 cask "postico"
 cask "tableplus"
@@ -30,6 +31,7 @@ cask "tableplus"
 cask "visual-studio-code"
 cask "meld"                                    # diff UI tool
 # cask "sublime-text"                
+
 
 ####### <----------------------------- DEV
 cask "docker"
