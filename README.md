@@ -15,5 +15,10 @@ Repo for storing my environment settings, dotfiles and etc. [`git.io/env`](https
 ## commands
 
 * `sh bin/install-brew.sh`: install [`brew`](https://brew.sh)
+* `sh bin/install-oh-my-zsh.sh`: install [`oh my zsh`](https://ohmyz.sh/)
 * `sh bin/sync.sh`: update [`Brewfile`](https://github.com/Drapegnik/env/blob/master/Brewfile)
-* `sh bin/setup.sh`: create symlinks && install packages
+
+* `make install` - install packages with `brew`
+* `make link-dots` - create symlinks on config files
+
+* `sh bin/setup.sh`: create symlinks && install packages [**deprecated**]

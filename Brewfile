@@ -11,15 +11,13 @@ brew "git-recent"
 brew "nvm"
 brew "pyenv"
 brew "pyenv-virtualenv"
-brew "thefuck"
 brew "yarn"
 # brew "readline", link: true
-cask "ngrok"
 # cask "osxfuse"
 # brew "sshfs"
-brew "tmux"
-brew "rlwrap"
-cask "font-hack-nerd-font"
+brew "thefuck"
+brew "m-cli"
+
 
 ####### <----------------------------- DB
 cask "postico"
@@ -27,11 +25,13 @@ cask "tableplus"
 # cask "robo-3t"
 # brew "mongodb", restart_service: true
 
+
 ####### <----------------------------- EDITORS
 # cask "atom"
 cask "visual-studio-code"
 cask "meld"                                    # diff UI tool
-cask "sublime-text"                
+# cask "sublime-text"                
+
 
 ####### <----------------------------- DEV
 cask "docker"
@@ -41,6 +41,9 @@ brew "docker-compose"
 brew "pre-commit"
 brew "terraform"
 brew "nomad"
+brew "tmux"
+brew "rlwrap"
+cask "font-hack-nerd-font"
 # cask "postman"
 # cask "staruml"
 # brew "exercism"
@@ -49,11 +52,17 @@ brew "nomad"
 ####### <----------------------------- MESSENGERS
 cask "slack"
 cask "telegram-desktop"
+cask "microsoft-teams"
+cask "zoom"
+# cask "viber"
 # cask "skype"
 # cask "discord"
 
 ####### <----------------------------- APPS
-# cask "google-chrome"
+cask "visual-studio-code"
+cask "google-chrome"
+# cask "github"
+cask "spotify"
 # cask "chromium"
 # cask "steam"
 # cask "folx"
@@ -64,7 +73,7 @@ cask "dash"         # api documentation browser
 cask "copyq"
 
 ####### <----------------------------- MISC
-cask "yandex-disk"
+# cask "yandex-disk"
 cask "raven-reader"
 cask "openvpn-connect"
 cask "hammerspoon"
@@ -73,3 +82,10 @@ brew "graphviz"
 brew "fontconfig"
 # cask "insomniax"
 # cask "vlc"
+
+####### <----------------------------- HELPERS
+cask "ngrok"
+cask "numi"
+cask "boop"
+# cask "ace-link"
+
