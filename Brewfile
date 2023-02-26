@@ -8,17 +8,18 @@ tap "homebrew/services"
 brew "git"
 # brew "git-lfs"
 brew "git-recent"                   # See your latest local git branches, formatted real fancy
-brew "nvm"                          # Manage multiple Node.js versions
-brew "pyenv"
-brew "pyenv-virtualenv"
-brew "yarn"
-# brew "readline", link: true
+# brew "nvm"                          # Manage multiple Node.js versions
+# brew "pyenv"
+# brew "pyenv-virtualenv"
+# brew "yarn"
 # cask "osxfuse"
 # brew "sshfs"
-brew "thefuck"
-brew "m-cli"
-brew "tmux"
-brew "rlwrap"
+brew "thefuck"                      # Programmatically correct mistyped console commands
+brew "m-cli"                        # Swiss Army Knife for macOS (man)
+brew "tmux"                         # Terminal multiplexer
+# brew "readline", link: true         # Library for command-line editing
+brew "rlwrap"                       # Readline wrapper: adds readline support to tools that lack it
+brew "s3cmd"                        # Command-line tool for the Amazon S3 service
 
 ####### <----------------------------- DB
 cask "postico"
@@ -36,7 +37,7 @@ cask "meld"                         # diff UI tool
 cask "docker"
 # brew "podman"
 cask "iterm2"
-cask "tower"
+# cask "tower"                        # Git client focusing on power and productivity
 brew "docker-compose"
 brew "pre-commit"
 brew "terraform"
@@ -47,18 +48,19 @@ brew "nomad"
 # brew "haskell-stack"
 
 ####### <----------------------------- MESSENGERS
-cask "slack"
-cask "telegram-desktop"
-cask "microsoft-teams"
-cask "zoom"
+cask "slack"                        # Team communication and collaboration software
+cask "telegram"                     # Messaging app with a focus on speed and security
+cask "microsoft-teams"              # Meet, chat, call, and collaborate in just one place
+cask "zoom"                         # Video communication and virtual meeting platform
 # cask "viber"
 # cask "skype"
 # cask "discord"
 
 ####### <----------------------------- APPS
 cask "1password"
-cask "visual-studio-code"
-cask "google-chrome"
+cask "google-chrome"                # Web browser 
+cask "firefox"                      # Web browser    
+cask "yandex"                       # Web browser
 # cask "github"
 cask "spotify"
 cask "balenaetcher"                 # Tool to flash OS images to SD cards & USB drives
@@ -74,7 +76,7 @@ cask "copyq"
 
 ####### <----------------------------- MISC
 # cask "yandex-disk"
-cask "raven-reader"
+cask "raven-reader"                 # News reader with flexible settings
 cask "openvpn-connect"
 cask "hammerspoon"
 # cask "gather"
