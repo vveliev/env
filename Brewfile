@@ -34,6 +34,7 @@ cask "meld"                         # diff UI tool
 
 ####### <----------------------------- DEV
 cask "docker"
+# brew "podman"
 cask "iterm2"
 cask "tower"
 brew "docker-compose"
@@ -55,17 +56,20 @@ cask "zoom"
 # cask "discord"
 
 ####### <----------------------------- APPS
+cask "1password"
 cask "visual-studio-code"
 cask "google-chrome"
 # cask "github"
 cask "spotify"
+cask "balenaetcher"                 # Tool to flash OS images to SD cards & USB drives
 # cask "chromium"
 # cask "steam"
 # cask "folx"
 cask "alfred"
 cask "bartender"
 cask "spectacle"
-cask "dash"                         # api documentation browser
+cask "dash"                         # API documentation browser and code snippet manager
+cask "obsidian"                     # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "copyq"
 
 ####### <----------------------------- MISC
