@@ -17,7 +17,8 @@ brew "yarn"
 # brew "sshfs"
 brew "thefuck"
 brew "m-cli"
-
+brew "tmux"
+brew "rlwrap"
 
 ####### <----------------------------- DB
 cask "postico"
@@ -25,13 +26,11 @@ cask "tableplus"
 # cask "robo-3t"
 # brew "mongodb", restart_service: true
 
-
 ####### <----------------------------- EDITORS
 # cask "atom"
 cask "visual-studio-code"
 cask "meld"                                    # diff UI tool
 # cask "sublime-text"                
-
 
 ####### <----------------------------- DEV
 cask "docker"
@@ -41,9 +40,6 @@ brew "docker-compose"
 brew "pre-commit"
 brew "terraform"
 brew "nomad"
-brew "tmux"
-brew "rlwrap"
-cask "font-hack-nerd-font"
 # cask "postman"
 # cask "staruml"
 # brew "exercism"
