@@ -4,11 +4,11 @@ tap "homebrew/core"
 tap "homebrew/services"
 
 ####### <-----------------------------  CLI
-brew "bash-completion"
+# brew "bash-completion"
 brew "git"
-brew "git-lfs"
-brew "git-recent"
-brew "nvm"
+# brew "git-lfs"
+brew "git-recent"                   # See your latest local git branches, formatted real fancy
+brew "nvm"                          # Manage multiple Node.js versions
 brew "pyenv"
 brew "pyenv-virtualenv"
 brew "yarn"
@@ -29,7 +29,7 @@ cask "tableplus"
 ####### <----------------------------- EDITORS
 # cask "atom"
 cask "visual-studio-code"
-cask "meld"                                    # diff UI tool
+cask "meld"                         # diff UI tool
 # cask "sublime-text"                
 
 ####### <----------------------------- DEV
@@ -65,7 +65,7 @@ cask "spotify"
 cask "alfred"
 cask "bartender"
 cask "spectacle"
-cask "dash"         # api documentation browser
+cask "dash"                         # api documentation browser
 cask "copyq"
 
 ####### <----------------------------- MISC
@@ -80,8 +80,8 @@ brew "fontconfig"
 # cask "vlc"
 
 ####### <----------------------------- HELPERS
-cask "ngrok"
-cask "numi"
-cask "boop"
+cask "ngrok"                        # Reverse proxy, secure introspectable tunnels to localhost https://ngrok.com/
+cask "numi"                         # Calculator and converter application https://numi.app/
+cask "boop"                         # encoding/decoding messages https://boop.okat.best/
 # cask "ace-link"
 
