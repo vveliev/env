@@ -1,3 +1,6 @@
+init-osx:
+	sh bin/install-brew.sh
+
 install:
 	brew bundle
 
