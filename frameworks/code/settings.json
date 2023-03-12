@@ -18,7 +18,7 @@
 
     "javascript.format.enable": false,
 
-    "dart.flutterSdkPath": "/Users/drapegnik/Downloads/flutter",
+    "dart.flutterSdkPath": "/Users/${USER}/Downloads/flutter",
     "dart.previewFlutterUiGuides": true,
     "dart.previewHotReloadOnSaveWatcher": true,
     "dart.enableCompletionCommitCharacters": true,
