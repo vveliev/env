@@ -55,7 +55,7 @@ alias npm-lsg='npm list -g --depth 0'
 
 # js
 alias fixmd='prettier --write $(find . -name "*.md" ! -path "*node_modules*")'
-alias parceldev='node ~/projects/drapegnik/parcel/packages/core/parcel/lib/cli.js'
+alias parceldev='node ~/projects/${USER}/parcel/packages/core/parcel/lib/cli.js'
 
 # the fuck config
 eval $(thefuck --alias)

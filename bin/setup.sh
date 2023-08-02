@@ -20,8 +20,6 @@ done
 # echo "> copy stack files in:\t~/.stack"
 # cp -R .stack/. ~/.stack
 
-echo "> install brew packages:"
-brew bundle
 
 echo "> install npm global packages:"
 sh bin/npm.sh

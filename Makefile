@@ -1,12 +1,27 @@
-init-osx:
+init: 
+	@$(MAKE) install-brew
+	@$(MAKE) install-osx
+	@$(MAKE) move-dots
+	@$(MAKE) install-zsh
+
+install-brew:
 	sh bin/install-brew.sh
 
-install:
-	brew bundle
+install-osx:
+	brew bundle --file workspace/osx/Brewfile
 
-link-dots:
-	ln -s -f $(shell pwd)/.zshrc ~/.zshrc
-	ln -s -f $(shell pwd)/.gitignore ~/.gitignore
-	ln -s -f $(shell pwd)/.gitconfig ~/.gitconfig
-	ln -s -f $(shell pwd)/.gitexcludes ~/.gitexcludes
-	ln -s -f $(shell pwd)/.npmrc ~/.npmrc
+install-zsh:
+	sh bin/install-oh-my-zsh.sh
+
+osx-sync:
+	brew bundle dump --force --describe  --file workspace/osx/Brewfile
+
+osx-update:
+	brew update && brew upgrade && brew cleanup
+
+move-dots:
+	cp workspace/unix/.zshrc ~/.zshrc
+	cp workspace/unix/.gitexcludes ~/.gitexcludes
+	cp workspace/unix/.gitconfig ~/.gitconfig	
+	cp workspace/unix/.gitexcludes ~/.gitexcludes
+	cp workspace/unix/.npmrc ~/.npmrc
